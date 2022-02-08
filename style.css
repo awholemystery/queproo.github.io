@@ -1,0 +1,55 @@
+html {
+    display: flex;
+    height:100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background: #222;
+  }
+  
+  body::before, body::after {
+    font-weight: bold;
+    font-family: 'SF Mono', 'Courier New', Courier, monospace;
+    font-size: 42px;
+    color: #f8c223;
+  }
+  
+  
+  head { 
+    display: block;
+    background-image: url(https://i.imgur.com/hp0Jqvo.gif);
+    height:20rem;
+    width:20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    border-style: dashed;
+  }
+  
+  body::before {
+    display: inline-block;
+    padding-top: 3rem;
+    content: "QUE PRO...";
+  }
+  
+  body::after {
+    margin-left: 16px;
+    display: inline;
+    content: "i";
+    background: #f8c223;
+    animation: blink 1s infinite;
+  }
+  
+  
+  
+  @keyframes blink {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
