@@ -1,1 +1,1 @@
-# queproo.github.io
+thx [HideakiAtsuyo](https://github.com/HideakiAtsuyo)
